@@ -6,15 +6,15 @@
  */
 int main(void)
 {
-	int numB = 34;
-	int mumB = 78;
+	char numB = 'a';
+	char mumB = 'A';
 
-	while (numB <= 122)
+	while (numB <= 'z')
 	{
 		putchar(numB);
 		mumB++;
 	}
-	while (mumB <= 90)
+	while (mumB <= 'Z')
 	{
 		putchar(mumB);
 		mumB++;
