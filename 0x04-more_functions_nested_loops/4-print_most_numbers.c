@@ -11,7 +11,11 @@ void print_most_numbers(void)
 
 	for (incr = 48; incr < 58; incr++)
 	{
-		if (incr == 48 || incr == 49 || incr == 51 || incr == 53 || incr == 54 || incr == 55 || incr == 56 || incr == 57 || incr == 58)
+		if ((incr == 50) || (incr == 52))
+		{
+			continue;
+		}
+		else
 		{
 			_putchar(incr);
 		}
