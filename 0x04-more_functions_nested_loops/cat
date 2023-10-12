@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+*more_numbers - prints 0 to 14 then a new line
+*Return: is void
+*/
+
+void print_numbers(void)
+{
+	char incr;
+
+	for (incr = 48; incr < 58; incr++)
+	{
+		_putchar(incr);
+	}
+	_putchar('\n');
+}
