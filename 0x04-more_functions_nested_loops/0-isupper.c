@@ -3,8 +3,8 @@
 /**
 *_isupper - Starting point
 *@c: what to be checked
-*Desription:checks if character is lower-case
-*Return: 1 if c is lowercase, 0 otherwise
+*Desription:checks if character is Upper-case
+*Return: 1 if c is uppercase, 0 otherwise
 */
 int _isupper(int c)
 {
