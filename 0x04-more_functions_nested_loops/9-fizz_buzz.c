@@ -3,10 +3,10 @@
 
 /**
  *main - code starts here for fizz buzz
- *Return: is zeroo
+ *Return: is void
  *
  */
-int main()
+int main(void)
 
 {
 int num;
@@ -36,5 +36,5 @@ printf(" %d", num);
 }
 printf("\n");
 
-return 0;
+return (0);
 }
