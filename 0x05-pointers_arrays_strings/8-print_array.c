@@ -11,13 +11,17 @@ void print_array(int *a, int n)
 {
 int pos;
 
-for (pos = 0; pos < (n - 1); pos++)
+for (pos = 0; pos < n; pos++)
 {
-printf("%d ", a[pos]);
+if (pos != (n - 1))
+{
+printf("%d", a[pos]);
+printf(", ");
 }
-if (pos == (n - 1))
+else
 {
-printf("%d", a[pos - 1]);
+printf("%d", a[pos]);
+}
 }
 putchar('\n');
 }
