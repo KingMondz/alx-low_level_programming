@@ -17,7 +17,7 @@ while (*pointer != '\0')
 pointer++;
 longInt++;
 }
-replacerVar = longInt--;
+replacerVar = longInt - 1;
 for (other = 0; other <= replacerVar; other++)
 {
 if (other % 2 == 0)
