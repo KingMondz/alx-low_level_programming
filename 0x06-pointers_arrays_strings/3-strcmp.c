@@ -2,8 +2,8 @@
 
 /**
 * _strcmp - our fx
-* @dest: var1
-* @src: var2
+* @s1: var1
+* @s2: var2
 * Return: comparison
 */
 int _strcmp(char *s1, char *s2)
