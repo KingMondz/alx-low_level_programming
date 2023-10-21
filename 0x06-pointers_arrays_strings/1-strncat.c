@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
-*_strcat - our fx
+* _strncat - our fx
 * @dest: var1
 * @src: var2
 * @n: var3
 * Return: dest concacted to n
 */
-char *_strcat(char *dest, char *src, int n)
+char *_strncat(char *dest, char *src, int n)
 {
 int a, b;
 
