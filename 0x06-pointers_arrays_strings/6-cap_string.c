@@ -14,7 +14,8 @@ while (n[index])
 while (!(n[index] >= 'a' && n[index] <= 'z'))
 {
 index++;
-if (index == '\0' ||
+}
+if (index == 0 ||
 n[index - 1] == ' ' ||
 n[index - 1] == '\t' ||
 n[index - 1] == '\n' ||
@@ -32,7 +33,6 @@ n[index - 1] == '}')
 n[index] -= 32;
 }
 index++;
-}
 }
 return (n);
 }
