@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-*_strcat - our fx
+* _strncpy - our fx
 * @dest: var1
 * @src: var2
 * @n: var3
@@ -17,7 +17,7 @@ while (a < n && src[a] != '\0')
 dest[a] = src[a];
 a++;
 }
-while (a < n')
+while (a < n)
 {
 dest[a] = '\0';
 a++;
