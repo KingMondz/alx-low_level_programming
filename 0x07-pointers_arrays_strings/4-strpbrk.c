@@ -16,7 +16,7 @@ while (*s)
 {
 for (a = 0; accept[a]; a++)
 {
-if (*s == accept[a])
+if (*s == accept[a + 1])
 {
 return (s);
 }
