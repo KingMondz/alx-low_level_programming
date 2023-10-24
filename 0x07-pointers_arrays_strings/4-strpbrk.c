@@ -20,8 +20,8 @@ if (*s == accept[a + 1])
 {
 return (s);
 }
-s++;
 }
+s++;
 }
 return ('\0');
 }
