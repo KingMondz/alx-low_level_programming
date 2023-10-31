@@ -1,13 +1,16 @@
 #include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
 * main - my function
 * @argc: number of commands
 * @argv: the actual commands
+* Return: zeroo
 */
 
-int main(int argc _attribute_((unused)), char *argv[])
+int main(int argc  __attribute__((unused)), char *argv[])
 {
-_putchar("%s\n", *argv);
-return (0);
+	printf("%s\n", argv[0]);
+	return (0);
 }
