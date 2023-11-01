@@ -3,7 +3,7 @@
 /**
  * main - Printing firstt argument
  * @argc: count
- * argv: commands
+ * @argv: commands
  * Return: zeroo
  */
 
